@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 
 // Import your page components
 import Violin1 from "./pages/Violin1";
@@ -13,7 +13,7 @@ import DoubleBass from './pages/DoubleBass'; */
 
 function App() {
 	return (
-		<BrowserRouter basename="/in-translation">
+		<HashRouter basename="/in-translation">
 			<div>
 				{/* Navigation Links */}
 				<nav>
@@ -32,7 +32,7 @@ function App() {
           <Route path="/doublebass" element={<DoubleBass />} /> */}
 				</Routes>
 			</div>
-		</BrowserRouter>
+		</HashRouter>
 	);
 }
 
