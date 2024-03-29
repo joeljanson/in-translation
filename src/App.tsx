@@ -13,7 +13,7 @@ import DoubleBass from './pages/DoubleBass'; */
 
 function App() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/in-translation">
 			<div>
 				{/* Navigation Links */}
 				<nav>
@@ -26,10 +26,10 @@ function App() {
 				{/* Route Configuration */}
 				<Routes>
 					<Route path="/violin1" element={<Violin1 />} />
-					{/* 	<Route path="/violin2" element={<Violin2 />} />
-					<Route path="/viola" element={<Viola />} />
-					<Route path="/cello" element={<Cello />} />
-					<Route path="/doublebass" element={<DoubleBass />} /> */}
+					{/* <Route path="/violin2" element={<Violin2 />} />
+          <Route path="/viola" element={<Viola />} />
+          <Route path="/cello" element={<Cello />} />
+          <Route path="/doublebass" element={<DoubleBass />} /> */}
 				</Routes>
 			</div>
 		</BrowserRouter>
