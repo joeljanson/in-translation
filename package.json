@@ -1,7 +1,7 @@
 {
 	"name": "in-translation",
 	"version": "0.1.0",
-	"homepage": "https://joeljanson.github.io/in-translation/",
+	"homepage": "https://joeljanson.github.io/in-translation",
 	"private": true,
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.17.0",
