@@ -13,7 +13,7 @@ import DoubleBass from './pages/DoubleBass'; */
 
 function App() {
 	return (
-		<HashRouter basename="/in-translation">
+		<HashRouter>
 			<div>
 				{/* Navigation Links */}
 				<nav>
