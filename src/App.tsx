@@ -1,6 +1,4 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { HashRouter, Routes, Route, Link } from "react-router-dom";
 
