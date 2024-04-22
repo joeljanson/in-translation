@@ -16,6 +16,8 @@ import Violin2 from "./pages/Violin2";
 import Viola from "./pages/Viola";
 import Cello from "./pages/Cello";
 import DoubleBass from "./pages/DoubleBass";
+import About from "./pages/About";
+
 /* import Violin2 from './pages/Violin2';
 import Viola from './pages/Viola';
 import Cello from './pages/Cello';
@@ -48,6 +50,9 @@ function App() {
 			<div className="container">
 				{/* Navigation Links */}
 				<nav>
+					<NavLink className="navi-link" to="/">
+						About
+					</NavLink>
 					<NavLink className="navi-link" to="/violin1">
 						Violin 1
 					</NavLink>
@@ -67,6 +72,7 @@ function App() {
 
 				{/* Route Configuration */}
 				<Routes>
+					<Route path="/" element={<About />} />
 					<Route path="/violin1" element={<Violin1 />} />
 					<Route path="/violin2" element={<Violin2 />} />
 					<Route path="/viola" element={<Viola />} />

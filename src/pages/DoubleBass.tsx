@@ -5,23 +5,20 @@ import { SectionProps } from "./Section";
 // Example sections data for Violin 1
 const doubleBassSections: SectionProps[] = [
 	{
-		infoname: "I1",
-		title: "Takt 12-15",
-		text: "Exploratory section with a focus on dynamics.",
+		title: "Försättsblad",
+		text: "Ett förlåt och en öppning.",
 		media: [
 			{
 				type: "video",
-				title: "Video explanation",
-				text: "1 minute",
-				source:
-					"https://www.youtube-nocookie.com/embed/Dptx55JLQGE?si=3Z5Tno6LilosvD07",
+				title: "Förklaring",
+				source: "https://www.youtube-nocookie.com/embed/b9PdL7GjC-Y",
 			},
-			{
+			/* {
 				type: "audio",
 				title: "Ljudande referens",
-				/* text: "1 minute", */
+				text: "1 minute",
 				source: "/path/to/audio/exampleAudio.mp3",
-			},
+			}, */
 		],
 	},
 

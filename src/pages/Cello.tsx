@@ -5,22 +5,71 @@ import { SectionProps } from "./Section";
 // Example sections data for Violin 1
 const celloSections: SectionProps[] = [
 	{
-		infoname: "I1",
-		title: "Takt 12-15",
-		text: "Exploratory section with a focus on dynamics.",
+		title: "Slow oscillating dynamics",
+		text: "Videoförklaring för vad jag menar med slow oscillating dynamics",
 		media: [
 			{
 				type: "video",
-				title: "Video explanation",
-				text: "1 minute",
-				source:
-					"https://www.youtube-nocookie.com/embed/Dptx55JLQGE?si=3Z5Tno6LilosvD07",
+				title: "Slow oscillating dynamics",
+				//text: "1 minute",
+				source: "https://www.youtube-nocookie.com/embed/eLJi17rU-Ms",
 			},
 			{
 				type: "audio",
 				title: "Ljudande referens",
-				/* text: "1 minute", */
-				source: "/path/to/audio/exampleAudio.mp3",
+				source:
+					"/in-translation/audio/14 Violoncello - Slow oscillating dynamics.mp3",
+			},
+		],
+	},
+	{
+		title: "Bokstav D",
+		text: "Videoförklaring för notation vid bokstav D",
+		media: [
+			{
+				type: "video",
+				title: "Bokstav D",
+				//text: "1 minute",
+				source: "https://www.youtube-nocookie.com/embed/uwinIwG8fhw",
+			},
+			{
+				type: "audio",
+				title: "Ljudande referens",
+				source: "/in-translation/audio/15 - Violoncello - D.mp3",
+			},
+		],
+	},
+	{
+		title: "Takt 58",
+		text: "Videoförklaring för notation i takt 58",
+		media: [
+			{
+				type: "video",
+				title: "Takt 58",
+				//text: "1 minute",
+				source: "https://www.youtube-nocookie.com/embed/8AtRuO-XMOI",
+			},
+			{
+				type: "audio",
+				title: "Ljudande referens",
+				source: "/in-translation/audio/greenwood-polymorphia.mp3",
+			},
+		],
+	},
+	{
+		title: "Bokstav G",
+		text: "Videoförklaring för notation vid bokstav G",
+		media: [
+			{
+				type: "video",
+				title: "Bokstav G",
+				//text: "1 minute",
+				source: "https://www.youtube-nocookie.com/embed/lw_3kR1liHM",
+			},
+			{
+				type: "audio",
+				title: "Ljudande referens",
+				source: "/in-translation/audio/17 - Violoncello - G.mp3",
 			},
 		],
 	},

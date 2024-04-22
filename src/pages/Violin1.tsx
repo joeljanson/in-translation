@@ -5,62 +5,71 @@ import { SectionProps } from "./Section";
 // Example sections data for Violin 1
 const violin1Sections: SectionProps[] = [
 	{
-		infoname: "I1",
-		title: "Takt 12-15",
-		text: "Exploratory section with a focus on dynamics.",
+		title: "Slow oscillating dynamics",
+		text: "Videoförklaring för vad jag menar med slow oscillating dynamics",
 		media: [
 			{
 				type: "video",
-				title: "Video explanation",
-				text: "1 minute",
-				source:
-					"https://www.youtube-nocookie.com/embed/Dptx55JLQGE?si=3Z5Tno6LilosvD07",
+				title: "Slow oscillating dynamics",
+				//text: "1 minute",
+				source: "https://www.youtube-nocookie.com/embed/AL5y13ppIAI",
 			},
 			{
 				type: "audio",
 				title: "Ljudande referens",
-				/* text: "1 minute", */
-				source: "/path/to/audio/exampleAudio.mp3",
+				source: "/in-translation/audio/slow-oscillating-dynamics.mp3",
 			},
 		],
 	},
 	{
-		infoname: "I2",
-		title: "Bar 22-25",
-		text: "Exploratory section with a focus on dynamics.",
+		title: "Takt 52",
+		text: "Videoförklaring för vad jag menar vid takt 52",
 		media: [
 			{
 				type: "video",
-				title: "Video explanation",
-				text: "1 minute",
-				source:
-					"https://www.youtube-nocookie.com/embed/Dptx55JLQGE?si=3Z5Tno6LilosvD07",
+				title: "Takt 52",
+				//text: "1 minute",
+				source: "https://www.youtube-nocookie.com/embed/d9tZeY-IkgI",
 			},
 			{
 				type: "audio",
-				title: "Audio reference",
-				/* text: "1 minute", */
-				source: "/path/to/audio/exampleAudio.mp3",
+				title: "Ljudande referens",
+				source: "/in-translation/audio/11 Violin I - takt 52 (ljudfil).mp3",
 			},
 		],
 	},
 	{
-		infoname: "I3",
-		title: "Bar 32-35",
-		text: "Exploratory section with a focus on dynamics.",
+		title: "Takt 58",
+		text: "Videoförklaring för vad jag menar vid takt 58",
 		media: [
 			{
 				type: "video",
-				title: "Video explanation",
-				text: "1 minute",
-				source: "https://www.youtube.com/embed/exampleVideoId",
+				title: "Takt 58",
+				//text: "1 minute",
+				source: "https://www.youtube-nocookie.com/embed/G3c8FNnO93E",
 			},
 			{
 				type: "audio",
-				title: "Audio reference",
-				/* text: "1 minute", */
-				source: "/path/to/audio/exampleAudio.mp3",
+				title: "Ljudande referens",
+				source: "/in-translation/audio/greenwood-polymorphia.mp3",
 			},
+		],
+	},
+	{
+		title: "Bokstav G",
+		text: "Videoförklaring för vad jag menar vid bokstav G",
+		media: [
+			{
+				type: "video",
+				title: "Bokstav G",
+				//text: "1 minute",
+				source: "https://www.youtube-nocookie.com/embed/E7QmMNtAKuI",
+			},
+			/* {
+				type: "audio",
+				title: "Ljudande referens",
+				source: "/in-translation/audio/greenwood-polymorphia.mp3",
+			}, */
 		],
 	},
 	// Add more sections as needed

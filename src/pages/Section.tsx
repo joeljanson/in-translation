@@ -16,7 +16,7 @@ export const Section: React.FC<SectionProps> = ({
 }) => {
 	return (
 		// Bootstrap grid classes for responsiveness
-		<div className="col-lg-4 col-md-6">
+		<div className="col-lg-6 col-md-6">
 			<div className="card text-center my-3">
 				<div className="d-flex flex-column card-body justify-content-center align-items-center">
 					<h2 className="info-name">{infoname}</h2>
