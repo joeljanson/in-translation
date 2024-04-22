@@ -10,7 +10,6 @@ const celloSections: SectionProps[] = [
 		media: [
 			{
 				type: "video",
-				title: "Slow oscillating dynamics",
 				//text: "1 minute",
 				source: "https://www.youtube-nocookie.com/embed/eLJi17rU-Ms",
 			},
@@ -28,7 +27,6 @@ const celloSections: SectionProps[] = [
 		media: [
 			{
 				type: "video",
-				title: "Bokstav D",
 				//text: "1 minute",
 				source: "https://www.youtube-nocookie.com/embed/uwinIwG8fhw",
 			},
@@ -45,7 +43,6 @@ const celloSections: SectionProps[] = [
 		media: [
 			{
 				type: "video",
-				title: "Takt 58",
 				//text: "1 minute",
 				source: "https://www.youtube-nocookie.com/embed/8AtRuO-XMOI",
 			},
@@ -62,7 +59,6 @@ const celloSections: SectionProps[] = [
 		media: [
 			{
 				type: "video",
-				title: "Bokstav G",
 				//text: "1 minute",
 				source: "https://www.youtube-nocookie.com/embed/lw_3kR1liHM",
 			},

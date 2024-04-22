@@ -10,7 +10,6 @@ const violaSections: SectionProps[] = [
 		media: [
 			{
 				type: "video",
-				title: "Slow oscillating dynamics",
 				//text: "1 minute",
 				source: "https://www.youtube-nocookie.com/embed/m9ENtGGFvh4",
 			},
@@ -27,7 +26,6 @@ const violaSections: SectionProps[] = [
 		media: [
 			{
 				type: "video",
-				title: "Bokstav E",
 				//text: "1 minute",
 				source:
 					"https://www.youtube-nocookie.com/embed/https://youtu.be/6JUWYs9iL_w",
@@ -45,7 +43,6 @@ const violaSections: SectionProps[] = [
 		media: [
 			{
 				type: "video",
-				title: "Bokstav G",
 				//text: "1 minute",
 				source:
 					"https://www.youtube-nocookie.com/embed/https://youtu.be/Toj3WCscy90",
@@ -63,7 +60,6 @@ const violaSections: SectionProps[] = [
 		media: [
 			{
 				type: "video",
-				title: "Slutet",
 				//text: "1 minute",
 				source:
 					"https://www.youtube-nocookie.com/embed/https://youtu.be/CMq54uyUII4",

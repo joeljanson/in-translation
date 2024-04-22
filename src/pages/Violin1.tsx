@@ -10,7 +10,6 @@ const violin1Sections: SectionProps[] = [
 		media: [
 			{
 				type: "video",
-				title: "Slow oscillating dynamics",
 				//text: "1 minute",
 				source: "https://www.youtube-nocookie.com/embed/AL5y13ppIAI",
 			},
@@ -27,7 +26,6 @@ const violin1Sections: SectionProps[] = [
 		media: [
 			{
 				type: "video",
-				title: "Takt 52",
 				//text: "1 minute",
 				source: "https://www.youtube-nocookie.com/embed/d9tZeY-IkgI",
 			},
@@ -44,7 +42,6 @@ const violin1Sections: SectionProps[] = [
 		media: [
 			{
 				type: "video",
-				title: "Takt 58",
 				//text: "1 minute",
 				source: "https://www.youtube-nocookie.com/embed/G3c8FNnO93E",
 			},
@@ -61,7 +58,6 @@ const violin1Sections: SectionProps[] = [
 		media: [
 			{
 				type: "video",
-				title: "Bokstav G",
 				//text: "1 minute",
 				source: "https://www.youtube-nocookie.com/embed/E7QmMNtAKuI",
 			},

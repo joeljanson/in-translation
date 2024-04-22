@@ -10,7 +10,6 @@ const doubleBassSections: SectionProps[] = [
 		media: [
 			{
 				type: "video",
-				title: "Förklaring",
 				source: "https://www.youtube-nocookie.com/embed/b9PdL7GjC-Y",
 			},
 			/* {

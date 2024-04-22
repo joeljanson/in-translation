@@ -3,11 +3,11 @@ import React from "react";
 const About: React.FC = () => {
 	return (
 		<div>
-			<div className="container mt-4 justify-content-center align-items-center d-flex">
+			<div className="container col-md-6 mt-4 justify-content-center align-items-center d-flex">
 				<h1 className="text-center mb-4">{"About"}</h1>
 				<p className="text-center mb-4">
-					Nedan följer förklaringar till motsvarande platser i partituret. Om
-					något ändå skulle vara oklart, hör av er till{" "}
+					På denna sida finns förklaringar till noterat material i partituret.
+					Om något ändå skulle vara oklart, hör av er till{" "}
 					<a
 						target="_blank"
 						href="mailTo:joel.janson.johansen@gmail.com"
@@ -29,6 +29,7 @@ const About: React.FC = () => {
 						></iframe>
 					</div>
 				</p>
+				<p>Nedan finns en digital reproduktion av verket (ej komplett)</p>
 				<audio controls className="w-100">
 					<source
 						src={"/in-translation/audio/In translation - digital render.mp3"}

@@ -49,23 +49,24 @@ function App() {
 		<HashRouter>
 			<div className="container">
 				{/* Navigation Links */}
-				<nav>
-					<NavLink className="navi-link" to="/">
+				<nav className="navbar navbar-expand-lg d-flex flex-column flex-lg-row justify-content-center">
+					{/* Apply 'mx-2' or 'mx-lg-3' to adjust spacing on all screen sizes or larger screens only */}
+					<NavLink className="nav-link mx-2 mx-lg-3" to="/">
 						About
 					</NavLink>
-					<NavLink className="navi-link" to="/violin1">
+					<NavLink className="nav-link mx-2 mx-lg-3" to="/violin1">
 						Violin 1
 					</NavLink>
-					<NavLink className="navi-link" to="/violin2">
+					<NavLink className="nav-link mx-2 mx-lg-3" to="/violin2">
 						Violin 2
-					</NavLink>{" "}
-					<NavLink className="navi-link" to="/viola">
+					</NavLink>
+					<NavLink className="nav-link mx-2 mx-lg-3" to="/viola">
 						Viola
 					</NavLink>
-					<NavLink className="navi-link" to="/cello">
+					<NavLink className="nav-link mx-2 mx-lg-3" to="/cello">
 						Cello
 					</NavLink>
-					<NavLink className="navi-link" to="/doublebass">
+					<NavLink className="nav-link mx-2 mx-lg-3" to="/doublebass">
 						Kontrabas
 					</NavLink>
 				</nav>

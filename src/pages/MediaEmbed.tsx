@@ -15,7 +15,7 @@ export const MediaEmbed: React.FC<MediaProps> = ({
 }) => {
 	return (
 		<div className="mb-4 w-100">
-			{title && <h5 className="mt-3">{title}</h5>}
+			{title && <h5 className="mt-3 mb-4">{title}</h5>}
 			{text && <p>{text}</p>}
 			{type === "video" ? (
 				<div className="embed-responsive embed-responsive-16by9">

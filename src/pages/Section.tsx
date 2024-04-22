@@ -19,9 +19,9 @@ export const Section: React.FC<SectionProps> = ({
 		<div className="col-lg-6 col-md-6">
 			<div className="card text-center my-3">
 				<div className="d-flex flex-column card-body justify-content-center align-items-center">
-					<h2 className="info-name">{infoname}</h2>
-					<p className="card-title">{title}</p>
-					<p className="card-text">{text}</p>
+					{/* <h2 className="info-name">{infoname}</h2> */}
+					<h1 className="card-title mt-3 mb-3">{title}</h1>
+					<p className="card-text mb-4">{text}</p>
 					{media.map((m, index) => (
 						<MediaEmbed key={index} {...m} />
 					))}
